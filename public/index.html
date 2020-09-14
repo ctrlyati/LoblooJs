@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <title>Lobloo : ไม่เชื่อ อย่า ลบหลู่</title>
 
     <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.20.0/firebase-app.js"></script>
+    <!-- <script defer src="/__/firebase/7.20.0/firebase-app.js"></script> -->
     <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.20.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.20.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.20.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.20.0/firebase-storage.js"></script>
+    <!-- <script defer src="/__/firebase/7.20.0/firebase-auth.js"></script> -->
+    <!-- <script defer src="/__/firebase/7.20.0/firebase-database.js"></script> -->
+    <!-- <script defer src="/__/firebase/7.20.0/firebase-messaging.js"></script> -->
+    <!-- <script defer src="/__/firebase/7.20.0/firebase-storage.js"></script> -->
     <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+    <!-- <script defer src="/__/firebase/init.js"></script> -->
 
     <style media="screen">
       body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
@@ -33,33 +33,15 @@
   <body>
     <div id="message">
       <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+      <h1>Lobloo</h1>
+      <p>Please consider using this (Don't use it too much) I pay this my self</p>
+
+      <h3>Consider using Lobloo</h3>
+      <a href="https://slack.com/oauth/v2/authorize?client_id=25882944512.1342048494903&scope=commands&user_scope="><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+
+      <h4>You could help me with this button</h4>
+      <a target="_blank" href="https://paypal.me/ctrlyati">Donate</a>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
   </body>
 </html>
